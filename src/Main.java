@@ -34,7 +34,7 @@ public class Main {
         }
     }
     public static void deliveryCard(int deliveryDistance) {
-        int deliveryTime = 0;
+        int deliveryTime;
         if (deliveryDistance <= 20) {
             deliveryTime = 1;
             System.out.println("Потребуется дней: " + deliveryTime);
